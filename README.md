@@ -2,10 +2,18 @@
 
 **A fast-paced reaction game — click the moving target before time runs out.**
 
-🔗 **Live Demo:** [https://ankitbasuxyz-hub.github.io/ClickRush/]
+🔗 **Live Demo:** [https://ankitbasuxyzhub.github.io/ClickRush/]
 
 
 🎥 **Video Demo:** [https://youtu.be/vS0EfRwis6Y]
+
+## 📸 Screenshot
+
+
+
+<img width="996" height="615" alt="Image" src="https://github.com/user-attachments/assets/0a2a7f3b-ccf6-4da4-a72a-0adfee1d9f78" />
+
+
 
 ---
 
@@ -108,46 +116,3 @@ A button adds or removes the `data-theme="dark"` attribute. CSS variables then c
 ## 📄 License
 
 This project is open for educational and demonstration purposes.
-## 🎤 Possible Viva Questions
-
-**1. Why did you use HTML?**  
-HTML creates the structure of the webpage.
-
-**2. Why did you use CSS?**  
-CSS is used for styling, layout, responsive design and animations.
-
-**3. Why did you use JavaScript?**  
-JavaScript adds the game logic and user interactions.
-
-**4. What does `addEventListener()` do?**  
-It waits for an event such as a button click.
-
-**5. What does `setInterval()` do?**  
-It repeatedly runs a function after a fixed time interval.
-
-**6. Why did you use `Math.random()`?**  
-To generate random positions for the target.
-
-**7. What is localStorage?**  
-It lets a website save small amounts of data in the browser.
-
-**8. How does the score increase?**  
-The click event increases the score variable by 1.
-
-**9. How does the game know when it is over?**  
-The timer decreases every second. When it reaches zero, the game ends.
-
-**10. How did you make it responsive?**  
-CSS media queries change the layout and sizes for smaller screens.
-
-## 📌 Future Improvements
-
-- Difficulty levels
-- Online leaderboard
-- More game modes
-- More sound effects
-- Additional visual themes
-
-## 📄 Submission Notes
-
-This project intentionally uses simple, readable code so the core implementation can be explained clearly during a student evaluation or viva.
