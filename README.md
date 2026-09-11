@@ -2,7 +2,7 @@
 
 **A fast-paced reaction game — click the moving target before time runs out.**
 
-🔗 **Live Demo:** [https://ankitbasuxyzhub.github.io/ClickRush/]
+🔗 **Live Demo:** [https://ankitbasuxyz-hub.github.io/ClickRush/]
 
 
 🎥 **Video Demo:** [https://youtu.be/vS0EfRwis6Y]
@@ -46,7 +46,7 @@ The goal is simple: **beat your best score.**
 
 - HTML
 - CSS
-- Vanilla JavaScript
+- JavaScript
 - Browser `localStorage`
 
 ---
