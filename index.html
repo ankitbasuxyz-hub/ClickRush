@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClickRush — Reaction Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-shape shape-one"></div>
+  <div class="background-shape shape-two"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">⚡</span>
+      <span>Click<span>Rush</span></span>
+    </div>
+
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+      <span id="themeIcon">☀️</span>
+      <span class="toggle-track"><span class="toggle-thumb"></span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Start screen -->
+    <section id="startScreen" class="screen">
+      <div class="eyebrow">⏱ 30 SECOND CHALLENGE</div>
+      <h1>How fast can you <span>click?</span></h1>
+      <p class="subtitle">Test your reaction speed. Chase a new high score.</p>
+
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-icon">⭐</div>
+          <div>
+            <small>SCORE</small>
+            <strong id="startScore">0</strong>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">⏱️</div>
+          <div>
+            <small>TIME</small>
+            <strong>30s</strong>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🏆</div>
+          <div>
+            <small>BEST</small>
+            <strong id="startBest">0</strong>
+          </div>
+        </div>
+      </div>
+
+      <button id="startButton" class="primary-button">
+        <span>▶</span> START GAME
+      </button>
+
+      <p class="hint">⚡ Click &nbsp;•&nbsp; Score &nbsp;•&nbsp; Beat Your Best</p>
+    </section>
+
+    <!-- Game screen -->
+    <section id="gameScreen" class="screen hidden">
+      <div class="game-heading">
+        <div>
+          <div class="eyebrow">LIVE CHALLENGE</div>
+          <h2>Catch the target!</h2>
+        </div>
+        <div id="gameStatus" class="status"><span></span> PLAYING</div>
+      </div>
+
+      <div class="stats game-stats">
+        <div class="stat-card">
+          <div class="stat-icon">⭐</div>
+          <div>
+            <small>SCORE</small>
+            <strong id="score">0</strong>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">⏱️</div>
+          <div>
+            <small>TIME</small>
+            <strong id="timer">30s</strong>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🏆</div>
+          <div>
+            <small>BEST</small>
+            <strong id="best">0</strong>
+          </div>
+        </div>
+      </div>
+
+      <div id="gameArena" class="game-arena">
+        <div class="arena-grid"></div>
+        <div class="arena-message">Click the target!</div>
+        <button id="target" class="target" aria-label="Click target">
+          <span></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Game over screen -->
+    <section id="resultScreen" class="screen result-screen hidden">
+      <div class="trophy">🏆</div>
+      <div class="eyebrow">CHALLENGE COMPLETE</div>
+      <h2>Game Over!</h2>
+      <p class="result-label">YOUR SCORE</p>
+      <div id="finalScore" class="final-score">0</div>
+
+      <div id="resultMessage" class="result-message">
+        <strong>Warm-up! 🔥</strong>
+        <span>Try again and beat your score.</span>
+      </div>
+
+      <div class="result-actions">
+        <button id="playAgainButton" class="primary-button">
+          <span>▶</span> PLAY AGAIN
+        </button>
+        <button id="homeButton" class="secondary-button">⌂ HOME</button>
+      </div>
+
+      <div class="best-result">🏆 Best Score <strong id="resultBest">0</strong></div>
+    </section>
+  </main>
+
+  <footer>CLICKRUSH <span>•</span> A tiny game built with HTML, CSS & JavaScript</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
